@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap");
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+  --bs-body-font-weight: 500;
+}
+
+#navbar {
+  background-color: #562eff;
+}
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+ul.navbar-nav {
+  align-items: center;
+}
+
+main {
+  background-color: #e5e5e5;
+}
+
+.container h3 {
+  font-size: 24px;
+  color: #562eff;
+}
+.players-container h4 {
+  font-size: 18px;
+}
+.blogs-container h4,
+.courses-container h4 {
+  font-size: 20px;
+}
+.blogs-container p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #9f9f9f;
+}
+.blogs-container p span {
+  color: #562eff;
+}
+.rating {
+  font-size: 14.6913px;
+}
+.rating i {
+  color: #ffc014;
+}
+.rating span {
+  font-weight: 400;
+  color: #a2a2a2;
+}
+.duration {
+  background: #ffe4e8;
+}
+.duration i {
+  font-size: 17px;
+  color: #ff4a60;
+}
+.duration span {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 14.6913px;
+  color: #ff4a60;
+}
+.courses-container h4 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20.0336px;
+  color: #1e1e1e;
+}
+.courses-container p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14.6913px;
+  color: #ed6b4f;
+}
